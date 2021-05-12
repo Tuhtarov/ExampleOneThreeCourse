@@ -115,7 +115,7 @@ namespace PraktikaCourse3.packages.view_model_main
 
         public void InitAnimation()
         {
-            GridWidth = 150;
+            GridWidth = DEFAULT_WIDTH_200;
             GridHidden = false;
             timer = new DispatcherTimer();
             timer.Tick += OnTick_Timer;
@@ -127,7 +127,7 @@ namespace PraktikaCourse3.packages.view_model_main
             if (GridHidden)
             {
                 GridWidth += 10;
-                if (GridWidth >= 150)
+                if (GridWidth >= DEFAULT_WIDTH_200)
                 {
                     GridHidden = false;
                     timer.Stop();
@@ -144,5 +144,7 @@ namespace PraktikaCourse3.packages.view_model_main
                 }
             }
         }
+
+        private const double DEFAULT_WIDTH_200 = 200;
     }
 }
