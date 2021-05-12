@@ -1,0 +1,33 @@
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\bin\Debug\PraktikaCourse3.exe.config
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\bin\Debug\PraktikaCourse3.exe
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\bin\Debug\PraktikaCourse3.pdb
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\PraktikaCourse3.csprojAssemblyReference.cache
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\MainWindow.g.cs
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\App.g.cs
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\PraktikaCourse3_MarkupCompile.cache
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\PraktikaCourse3_MarkupCompile.lref
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\MainWindow.baml
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\PraktikaCourse3.g.resources
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\PraktikaCourse3.Properties.Resources.resources
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\PraktikaCourse3.csproj.GenerateResource.cache
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\PraktikaCourse3.csproj.CoreCompileInputs.cache
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\PraktikaCourse3.exe
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\PraktikaCourse3.pdb
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\frames\task one\One.g.cs
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\bin\Debug\CommonServiceLocator.dll
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\frames\task one\One.baml
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\PraktikaCourse3.csproj.CopyComplete
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\frames\main\MainFrame.g.cs
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\frames\main\MainFrame.baml
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\frames\task two\Two.g.cs
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\frames\task two\Two.baml
