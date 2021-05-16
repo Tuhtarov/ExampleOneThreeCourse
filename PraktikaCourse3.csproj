@@ -78,6 +78,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="frames\task three\Three.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="frames\task two\Two.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -96,6 +100,12 @@
     <Compile Include="frames\task one\One.xaml.cs">
       <DependentUpon>One.xaml</DependentUpon>
     </Compile>
+    <Compile Include="frames\task one\OneViewModel.cs" />
+    <Compile Include="frames\task three\RelayCommad.cs" />
+    <Compile Include="frames\task three\Three.xaml.cs">
+      <DependentUpon>Three.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frames\task three\ThreeViewModel.cs" />
     <Compile Include="frames\task two\Two.xaml.cs">
       <DependentUpon>Two.xaml</DependentUpon>
     </Compile>
@@ -141,10 +151,12 @@
     <Folder Include="frames\task four\" />
     <Folder Include="frames\task seven\" />
     <Folder Include="frames\task six\" />
-    <Folder Include="frames\task three\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="res\images\profileIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="res\images\formulaOneTask.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

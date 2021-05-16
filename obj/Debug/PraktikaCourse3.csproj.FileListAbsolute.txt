@@ -31,3 +31,5 @@ C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\frames\main\MainFrame.g
 C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\frames\main\MainFrame.baml
 C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\frames\task two\Two.g.cs
 C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\frames\task two\Two.baml
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\frames\task three\Three.g.cs
+C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\frames\task three\Three.baml

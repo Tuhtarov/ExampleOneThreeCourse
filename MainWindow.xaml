@@ -11,9 +11,10 @@
         MinWidth="1300">
     <Grid>
         <!-- Content -->
-        <Frame 
+        <Frame
            Background="Aqua"
            x:Name="MainFrame"
+           Margin="0,40,0,0"
            Content="{Binding CurrentPage, UpdateSourceTrigger=PropertyChanged}" />
 
         <!-- Window -->
@@ -112,9 +113,11 @@
                         <ListViewItem>
                             <StackPanel>
                                 <Button
-                                    Content="1">
+                                    Content="1"
+                                    Command="{Binding OpenOnePage}">
                                 </Button>
-                                <TextBlock>
+                                <TextBlock
+                                    Text="Определение значения функции">
                                 </TextBlock>
                             </StackPanel>
                         </ListViewItem>
@@ -134,9 +137,11 @@
                         <ListViewItem>
                             <StackPanel>
                                 <Button
-                                    Content="3">
+                                    Content="3"
+                                    Command="{Binding OpenThreePage}">
                                 </Button>
-                                <TextBlock>
+                                <TextBlock
+                                    Text="Одномерные массивы">
                                 </TextBlock>
                             </StackPanel>
                         </ListViewItem>
@@ -147,6 +152,7 @@
                                     Content="4">
                                 </Button>
                                 <TextBlock>
+                                    
                                 </TextBlock>
                             </StackPanel>
                         </ListViewItem>

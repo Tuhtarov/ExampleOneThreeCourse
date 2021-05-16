@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("res/images/profileicon.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("res/images/formulaonetask.png")]
 
 

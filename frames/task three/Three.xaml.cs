@@ -13,22 +13,22 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace PraktikaCourse3.frames.task_one
+namespace PraktikaCourse3.frames.task_three
 {
     /// <summary>
-    /// Логика взаимодействия для One.xaml
+    /// Логика взаимодействия для Three.xaml
     /// </summary>
-    public partial class One : Page
+    public partial class Three : Page
     {
-        public One()
+        public Three()
         {
             InitializeComponent();
-            Loaded += One_Loaded;
+            Loaded += Three_Loaded;            
         }
 
-        private void One_Loaded(object sender, RoutedEventArgs e)
+        private void Three_Loaded(object sender, RoutedEventArgs e)
         {
-            DataContext = new OneViewModel();
+            DataContext = new ThreeViewModel();
         }
     }
 }
