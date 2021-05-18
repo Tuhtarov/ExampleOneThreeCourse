@@ -4,6 +4,7 @@ using PraktikaCourse3.frames;
 using PraktikaCourse3.frames.main;
 using PraktikaCourse3.frames.task_one;
 using PraktikaCourse3.frames.task_three;
+using PraktikaCourse3.frames.task_three_number_two;
 using PraktikaCourse3.frames.task_two;
 using System;
 using System.Collections.Generic;
@@ -76,6 +77,14 @@ namespace PraktikaCourse3.packages.view_model_main
                 return new RelayCommand(() => CurrentPage = OneP);
             }
         }
+        
+        public ICommand OpenThreeNumberTwoPage
+        {
+            get
+            {
+                return new RelayCommand(() => CurrentPage = ThreeNumberTwoP);
+            }
+        }
 
         public ICommand OpenWelcomePage
         {
@@ -91,6 +100,7 @@ namespace PraktikaCourse3.packages.view_model_main
         private Page OneP;
         private Page TwoP;
         private Page ThreeP;
+        private Page ThreeNumberTwoP;
         private Page FourP;
         private Page FiveP;
         private Page SixP;
@@ -116,6 +126,7 @@ namespace PraktikaCourse3.packages.view_model_main
             TwoP = new Two();
             OneP = new One();
             ThreeP = new Three();
+            ThreeNumberTwoP = new ThreeNumberTwo();
         }
 
 

@@ -33,3 +33,40 @@ C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\frames\task two\Two.g.c
 C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\frames\task two\Two.baml
 C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\frames\task three\Three.g.cs
 C:\Users\tuhtarov\source\repos\PraktikaCourse3\obj\Debug\frames\task three\Three.baml
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\bin\Debug\PraktikaCourse3.exe.config
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\bin\Debug\PraktikaCourse3.exe
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\bin\Debug\PraktikaCourse3.pdb
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\bin\Debug\CommonServiceLocator.dll
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\PraktikaCourse3.csprojAssemblyReference.cache
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\main\MainFrame.g.cs
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\task one\One.g.cs
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\task three\Three.g.cs
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\task two\Two.g.cs
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\MainWindow.g.cs
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\App.g.cs
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\PraktikaCourse3_MarkupCompile.cache
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\PraktikaCourse3_MarkupCompile.lref
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\main\MainFrame.baml
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\task one\One.baml
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\task three\Three.baml
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\task two\Two.baml
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\MainWindow.baml
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\PraktikaCourse3.g.resources
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\PraktikaCourse3.Properties.Resources.resources
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\PraktikaCourse3.csproj.GenerateResource.cache
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\PraktikaCourse3.csproj.CoreCompileInputs.cache
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\PraktikaCourse3.csproj.CopyComplete
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\PraktikaCourse3.exe
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\PraktikaCourse3.pdb
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\task three number two\ThreeNumberTwo.g.cs
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\task three number two\ThreeNumberTwo.baml

@@ -6,12 +6,13 @@
         xmlns:local="clr-namespace:PraktikaCourse3"
         mc:Ignorable="d"
         Title="Практика"
-        Icon="C:\Users\tuhtarov\source\repos\PraktikaCourse3\res\images\profileIcon.png"
+        Icon="/res/images/profileIcon.png"
         MinHeight="850" 
         MinWidth="1300">
     <Grid>
         <!-- Content -->
         <Frame
+           NavigationUIVisibility="Hidden"
            Background="Aqua"
            x:Name="MainFrame"
            Margin="0,40,0,0"
@@ -71,7 +72,7 @@
                         Width="30"
                         Height="30">
                         <Image 
-                                Source="C:\Users\tuhtarov\source\repos\PraktikaCourse3\res\images\barIcon.png" />
+                                Source="/res/images/barIcon.png" />
                     </Button>
                 </Grid>
 
@@ -142,6 +143,18 @@
                                 </Button>
                                 <TextBlock
                                     Text="Одномерные массивы">
+                                </TextBlock>
+                            </StackPanel>
+                        </ListViewItem>
+
+                        <ListViewItem>
+                            <StackPanel>
+                                <Button
+                                    Content="3.2"
+                                    Command="{Binding OpenThreeNumberTwoPage}">
+                                </Button>
+                                <TextBlock
+                                    Text="Одномерные массивы 2 часть">
                                 </TextBlock>
                             </StackPanel>
                         </ListViewItem>

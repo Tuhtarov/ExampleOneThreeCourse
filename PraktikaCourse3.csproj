@@ -78,6 +78,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="frames\task three number two\ThreeNumberTwo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="frames\task three\Three.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -101,6 +105,10 @@
       <DependentUpon>One.xaml</DependentUpon>
     </Compile>
     <Compile Include="frames\task one\OneViewModel.cs" />
+    <Compile Include="frames\task three number two\ThreeNumberTwo.xaml.cs">
+      <DependentUpon>ThreeNumberTwo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frames\task three number two\ViewModelThreeNumberTwo.cs" />
     <Compile Include="frames\task three\RelayCommad.cs" />
     <Compile Include="frames\task three\Three.xaml.cs">
       <DependentUpon>Three.xaml</DependentUpon>
