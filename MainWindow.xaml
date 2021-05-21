@@ -162,10 +162,11 @@
                         <ListViewItem>
                             <StackPanel>
                                 <Button
-                                    Content="4">
+                                    Content="4"
+                                    Command="{Binding OpenFourPage}">
                                 </Button>
-                                <TextBlock>
-                                    
+                                <TextBlock
+                                    Text="Двумерные массивы">
                                 </TextBlock>
                             </StackPanel>
                         </ListViewItem>
@@ -173,9 +174,11 @@
                         <ListViewItem>
                             <StackPanel>
                                 <Button
-                                    Content="5">
+                                    Content="5"
+                                    Command="{Binding OpenFivePage}">
                                 </Button>
-                                <TextBlock>
+                                <TextBlock
+                                    Text="Обработка строк">
                                 </TextBlock>
                             </StackPanel>
                         </ListViewItem>

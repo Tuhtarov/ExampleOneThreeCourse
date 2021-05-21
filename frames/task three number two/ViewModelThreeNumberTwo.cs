@@ -240,6 +240,7 @@ namespace PraktikaCourse3.frames.task_three_number_two
                         break;
                 }
             }
+
             arrayReplace[0] = v8;
             arrayReplace[1] = v9;
             arrayReplace[2] = v10;

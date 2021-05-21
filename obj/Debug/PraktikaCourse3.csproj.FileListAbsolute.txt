@@ -70,3 +70,7 @@ C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\PraktikaCourse
 C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\PraktikaCourse3.pdb
 C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\task three number two\ThreeNumberTwo.g.cs
 C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\task three number two\ThreeNumberTwo.baml
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\task four\Four.g.cs
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\task four\Four.baml
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\task five\Five.g.cs
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\task five\Five.baml

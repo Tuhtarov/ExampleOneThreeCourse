@@ -2,6 +2,8 @@
 using GalaSoft.MvvmLight.Command;
 using PraktikaCourse3.frames;
 using PraktikaCourse3.frames.main;
+using PraktikaCourse3.frames.task_five;
+using PraktikaCourse3.frames.task_four;
 using PraktikaCourse3.frames.task_one;
 using PraktikaCourse3.frames.task_three;
 using PraktikaCourse3.frames.task_three_number_two;
@@ -85,6 +87,22 @@ namespace PraktikaCourse3.packages.view_model_main
                 return new RelayCommand(() => CurrentPage = ThreeNumberTwoP);
             }
         }
+        
+        public ICommand OpenFourPage
+        {
+            get
+            {
+                return new RelayCommand(() => CurrentPage = FourP);
+            }
+        }
+
+        public ICommand OpenFivePage
+        {
+            get
+            {
+                return new RelayCommand(() => CurrentPage = FiveP);
+            }
+        }
 
         public ICommand OpenWelcomePage
         {
@@ -127,6 +145,8 @@ namespace PraktikaCourse3.packages.view_model_main
             OneP = new One();
             ThreeP = new Three();
             ThreeNumberTwoP = new ThreeNumberTwo();
+            FourP = new Four();
+            FiveP = new Five();
         }
 
 

@@ -74,6 +74,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="frames\task five\Five.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frames\task four\Four.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="frames\task one\One.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -101,6 +109,16 @@
     <Compile Include="frames\main\MainFrame.xaml.cs">
       <DependentUpon>MainFrame.xaml</DependentUpon>
     </Compile>
+    <Compile Include="frames\task five\BaseViewModel.cs" />
+    <Compile Include="frames\task five\Five.xaml.cs">
+      <DependentUpon>Five.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frames\task five\FiveViewModel.cs" />
+    <Compile Include="frames\task four\Four.xaml.cs">
+      <DependentUpon>Four.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frames\task four\FourViewModel.cs" />
+    <Compile Include="frames\task four\ModelFour.cs" />
     <Compile Include="frames\task one\One.xaml.cs">
       <DependentUpon>One.xaml</DependentUpon>
     </Compile>
@@ -155,8 +173,6 @@
     <Resource Include="res\images\barIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="frames\task five\" />
-    <Folder Include="frames\task four\" />
     <Folder Include="frames\task seven\" />
     <Folder Include="frames\task six\" />
   </ItemGroup>
