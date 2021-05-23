@@ -5,6 +5,7 @@ using PraktikaCourse3.frames.main;
 using PraktikaCourse3.frames.task_five;
 using PraktikaCourse3.frames.task_four;
 using PraktikaCourse3.frames.task_one;
+using PraktikaCourse3.frames.task_six;
 using PraktikaCourse3.frames.task_three;
 using PraktikaCourse3.frames.task_three_number_two;
 using PraktikaCourse3.frames.task_two;
@@ -40,8 +41,6 @@ namespace PraktikaCourse3.packages.view_model_main
                 RaisePropertyChanged("GridWidth");
             }
         }
-
-
 
         public MainViewModel()
         {
@@ -104,6 +103,14 @@ namespace PraktikaCourse3.packages.view_model_main
             }
         }
 
+        public ICommand OpenSixPage
+        {
+            get
+            {
+                return new RelayCommand(() => CurrentPage = SixP);
+            }
+        }
+
         public ICommand OpenWelcomePage
         {
             get
@@ -147,6 +154,7 @@ namespace PraktikaCourse3.packages.view_model_main
             ThreeNumberTwoP = new ThreeNumberTwo();
             FourP = new Four();
             FiveP = new Five();
+            SixP = new Six();
         }
 
 

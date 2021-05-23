@@ -1,0 +1,299 @@
+﻿<Page x:Class="PraktikaCourse3.frames.task_six.Six"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PraktikaCourse3.frames.task_six"
+      mc:Ignorable="d" 
+      MinHeight="500"
+      MinWidth="1600"
+      Title="Six">
+
+    <Grid
+        Margin="40,0,0,0"
+        Background="Black">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <Grid.Resources>
+            <Style TargetType="TextBlock">
+                <Setter Property="HorizontalAlignment" Value="Center" />
+                <Setter Property="Margin" Value="5" />
+                <Setter Property="FontSize" Value="15" />
+                <Setter Property="HorizontalAlignment" Value="Center" />
+                <Setter Property="VerticalAlignment" Value="Center" />
+                <Setter Property="Foreground" Value="LightGreen" />
+            </Style>
+            <Style TargetType="TextBox">
+                <Setter Property="Foreground" Value="Black" />
+                <Setter Property="Background" Value="LightGreen" />
+                <Setter Property="HorizontalContentAlignment" Value="Center" />
+                <Setter Property="VerticalContentAlignment" Value="Center" />
+                <Setter Property="Margin" Value="20 0 0 0"/>
+                <Setter Property="Height" Value="35" />
+                <Setter Property="Width" Value="55" />
+            </Style>
+        </Grid.Resources>
+
+        <!-- Задание 6.2 -->
+        <StackPanel
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Grid.Row="0"
+            Grid.Column="0"
+            Orientation="Vertical">
+            <TextBlock 
+                Text="Файл из чисел 7..18 (6.2)"/>
+            <Button
+                Background="LightGreen"
+                Margin="10"
+                Width="100"
+                Height="40"
+                Content="Создать"
+                Command="{Binding Create6_2}"/>
+            <TextBlock 
+                Text="Содержимое:"/>
+            <TextBlock 
+                Text="{Binding NewFile_6_2, UpdateSourceTrigger=PropertyChanged}"/>
+        </StackPanel>
+
+        <StackPanel
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Orientation="Vertical"
+            Grid.Row="1"
+            Grid.Column="0">
+            <TextBlock 
+                Text="Отформатированный файл (6.2)"/>
+            <TextBlock 
+                Text="Вывод:"/>
+            <TextBlock 
+                Text="{Binding RefFile_6_2, UpdateSourceTrigger=PropertyChanged}"/>
+        </StackPanel>
+
+
+
+
+
+        <!-- Задание 6.3 -->
+        <StackPanel
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Grid.Row="0"
+            Grid.Column="1"
+            Orientation="Vertical">
+            <TextBlock 
+                Text="Файл f1 из рандомных чисел (6.3)"/>
+            <Button
+                Background="LightGreen"
+                Margin="10"
+                Width="100"
+                Height="40"
+                Content="Создать"
+                Command="{Binding Create6_3}"/>
+            <TextBlock 
+                Text="Содержимое:"/>
+            <TextBlock 
+                Text="{Binding NewFile_6_3, UpdateSourceTrigger=PropertyChanged}"/>
+        </StackPanel>
+
+        <StackPanel
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Orientation="Vertical"
+            Grid.Row="1"
+            Grid.Column="1">
+            <TextBlock 
+                Text="Файл f2, заполненный из f1 (6.3)"/>
+            <TextBlock 
+                Text="Вывод (файл, где элементы из f1 &lt; 100):"/>
+            <TextBlock 
+                Text="{Binding RefFile_6_3, UpdateSourceTrigger=PropertyChanged}"/>
+        </StackPanel>
+
+
+        
+        
+        
+        <!-- Задание 6.4 -->
+        <StackPanel
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Grid.Row="0"
+            Grid.Column="2"
+            Orientation="Vertical">
+            <TextBlock 
+                Text="Два файла целых чисел (6.4)"/>
+            <Button
+                Background="LightGreen"
+                Margin="10"
+                Width="100"
+                Height="40"
+                Content="Создать"
+                Command="{Binding Create6_4}"/>
+            <TextBlock 
+                Text="Содержимое:"/>
+            <TextBlock 
+                Text="{Binding NewFile_6_4, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBlock 
+                Text="{Binding RefFile_6_4, UpdateSourceTrigger=PropertyChanged}"/>
+        </StackPanel>
+
+        <StackPanel
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Orientation="Vertical"
+            Grid.Row="1"
+            Grid.Column="2">
+            <TextBlock 
+                Text="Сумма элементов из f1 и f2 (6.4)"/>
+            <TextBlock 
+                Text="Вывод:"/>
+            <TextBlock 
+                Text="{Binding SummOutput_6_4, UpdateSourceTrigger=PropertyChanged}"/>
+        </StackPanel>
+
+        
+        
+        
+        <!-- Задание 6.1 -->
+        <StackPanel
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Grid.Row="0"
+            Grid.Column="3"
+            Orientation="Vertical">
+            <TextBlock 
+                Text="Перенос содержимого файла (6.1)"/>
+            <Button
+                Background="LightGreen"
+                Margin="10"
+                Width="100"
+                Height="40"
+                Content="Создать"
+                Command="{Binding Create6_1}"/>
+            <TextBlock 
+                Text="Содержимое:"/>
+            <TextBlock 
+                Text="{Binding NewFile_6_1, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <StackPanel
+                HorizontalAlignment="Center"
+                Orientation="Vertical">
+                <TextBlock
+                    Text="Перенос содержимого, не содержащее текст"/>
+                <StackPanel 
+                    HorizontalAlignment="Center"
+                    Orientation="Horizontal">
+                    <TextBox 
+                        Width="150"
+                        Text="{Binding InputTextFor_6_1, UpdateSourceTrigger=PropertyChanged}"
+                        />
+                </StackPanel>
+                <TextBlock 
+                    Margin="0,20,0,0"
+                    Text="Для переноса нажмите на кнопку создать"/>
+
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Orientation="Vertical"
+            Grid.Row="1"
+            Grid.Column="3">
+            <TextBlock 
+                Text="Содержимое второго файла (6.1):"/>
+            <TextBlock 
+                Text="Вывод:"/>
+            <TextBlock 
+                Text="{Binding RefFile_6_1, UpdateSourceTrigger=PropertyChanged}"/>
+        </StackPanel>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!-- Задание 6.5 -->
+        <StackPanel
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Grid.Row="0"
+            Grid.Column="4"
+            Orientation="Vertical">
+            <TextBlock 
+                Text="Текстовый файл (6.5)"/>
+            <StackPanel 
+                HorizontalAlignment="Center"
+                Orientation="Horizontal">
+                <TextBlock 
+                    Text="Введите текст для f1"/>
+                <TextBox 
+                    Width="100"
+                    Text="{Binding InputTextFor_6_5, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+            <Button
+                Background="LightGreen"
+                Margin="10"
+                Width="100"
+                Height="40"
+                Content="Создать"
+                Command="{Binding Create6_5}"/>
+            <TextBlock 
+                Text="Содержимое:"/>
+            <TextBlock 
+                Text="{Binding NewFile_6_5, UpdateSourceTrigger=PropertyChanged}"/>
+
+        </StackPanel>
+        <StackPanel
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Orientation="Vertical"
+            Grid.Row="1"
+            Grid.Column="4">
+            <TextBlock 
+                Text="Содержимое второго файла, где !"/>
+            <TextBlock 
+                Text="Вывод:"/>
+            <TextBlock 
+                Text="{Binding RefFile_6_5, UpdateSourceTrigger=PropertyChanged}"/>
+        </StackPanel>
+
+
+        
+        
+        
+        
+        <!-- Сервис -->
+        <StackPanel 
+            Orientation="Horizontal"
+            Grid.ColumnSpan="3"
+            Grid.Row="2">
+            <TextBlock  
+                Margin="25,0,5,0"
+                Text="//"/>
+            <TextBlock 
+                Margin="0,0,0,0"
+                Text="Все созданные файлы хранятся в пакете /bin/debug/files"/>
+        </StackPanel>
+
+    </Grid>
+</Page>

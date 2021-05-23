@@ -186,9 +186,11 @@
                         <ListViewItem>
                             <StackPanel>
                                 <Button
-                                    Content="6">
+                                    Content="6"
+                                    Command="{Binding OpenSixPage}">
                                 </Button>
-                                <TextBlock>
+                                <TextBlock
+                                    Text="Создание и обработка файлов">
                                 </TextBlock>
                             </StackPanel>
                         </ListViewItem>
