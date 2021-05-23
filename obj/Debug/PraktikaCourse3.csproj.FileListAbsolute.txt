@@ -76,3 +76,5 @@ C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\task fi
 C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\task five\Five.baml
 C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\task six\Six.g.cs
 C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\task six\Six.baml
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\task seven\Seven.g.cs
+C:\Users\Tukhtarov Aleksandr\Desktop\PracticThreeCourse\obj\Debug\frames\task seven\Seven.baml

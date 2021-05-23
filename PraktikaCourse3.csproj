@@ -86,6 +86,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="frames\task seven\Seven.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="frames\task six\Six.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -127,6 +131,11 @@
       <DependentUpon>One.xaml</DependentUpon>
     </Compile>
     <Compile Include="frames\task one\OneViewModel.cs" />
+    <Compile Include="frames\task seven\Seven.xaml.cs">
+      <DependentUpon>Seven.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frames\task seven\SevenViewModel.cs" />
+    <Compile Include="frames\task seven\ViewModelBase.cs" />
     <Compile Include="frames\task six\Six.xaml.cs">
       <DependentUpon>Six.xaml</DependentUpon>
     </Compile>
@@ -181,9 +190,7 @@
   <ItemGroup>
     <Resource Include="res\images\barIcon.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="frames\task seven\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="res\images\profileIcon.png" />
   </ItemGroup>

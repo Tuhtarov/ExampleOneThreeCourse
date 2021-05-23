@@ -198,9 +198,11 @@
                         <ListViewItem>
                             <StackPanel>
                                 <Button
-                                    Content="7">
+                                    Content="7"
+                                    Command="{Binding OpenSevenPage}">
                                 </Button>
-                                <TextBlock>
+                                <TextBlock
+                                    Text="Записи (структуры)">
                                 </TextBlock>
                             </StackPanel>
                         </ListViewItem>
