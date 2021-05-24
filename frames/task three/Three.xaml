@@ -11,12 +11,10 @@
 
     <Grid
         Background="LightSkyBlue">
-
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition />
         </Grid.RowDefinitions>
-
         <StackPanel
             Grid.Row="0"
             VerticalAlignment="Top"
@@ -83,6 +81,5 @@
                 Margin="5"
                 Text="{Binding OutputOnUI, UpdateSourceTrigger=PropertyChanged}"/>
         </StackPanel>
-
     </Grid>
 </Page>

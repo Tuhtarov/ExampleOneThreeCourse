@@ -36,14 +36,12 @@
             <RowDefinition />
             <RowDefinition Height="60"/>
         </Grid.RowDefinitions>
-        
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
             <ColumnDefinition />
             <ColumnDefinition />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        
         <!-- Сервис заданий -->
         <StackPanel
             Grid.Row="2"
@@ -51,7 +49,6 @@
             Height="60"
             Orientation="Horizontal"
             VerticalAlignment="Center">
-
             <Button
                 Margin="35,0,0,0"
                 Height="35"
@@ -59,7 +56,6 @@
                 Padding="5"
                 Content="Обновить массивы"
                 Command="{Binding Update}"/>
-
             <TextBlock
                 Margin="35,0,0,0"
                 Height="35"
@@ -71,11 +67,7 @@
                 Text="{Binding NqtyEl, UpdateSourceTrigger=PropertyChanged}"/>
             <TextBox 
                 Text="{Binding MqtyEl, UpdateSourceTrigger=PropertyChanged}"/>
-
         </StackPanel>
-        
-        
-        
         
         <!-- Задание 4.1 -->
         <StackPanel
@@ -103,11 +95,6 @@
                 Text="{Binding ArrayRef_4_1, UpdateSourceTrigger=PropertyChanged}" />
         </StackPanel>
 
-        
-        
-        
-        
-        
         <!-- Задание 4.2 -->
         <StackPanel
             Grid.Column="1"
@@ -128,14 +115,6 @@
                 Text="{Binding ArrayRef_4_2, UpdateSourceTrigger=PropertyChanged}" />
         </StackPanel>
 
-        
-        
-        
-        
-        
-        
-        
-        
         <!-- Задание 4.3 -->
         <StackPanel
             Grid.Column="2"
@@ -165,11 +144,6 @@
                 Text="{Binding ArrayRef_4_3, UpdateSourceTrigger=PropertyChanged}" />
         </StackPanel>
         
-        
-        
-        
-        
-        
         <!-- Задание 4.4 -->
         <StackPanel
             Grid.Column="3"
@@ -189,7 +163,5 @@
             <TextBlock 
                 Text="{Binding ArrayRef_4_4, UpdateSourceTrigger=PropertyChanged}" />
         </StackPanel>
-
-
     </Grid>
 </Page>

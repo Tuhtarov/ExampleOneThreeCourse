@@ -361,7 +361,6 @@ namespace PraktikaCourse3.frames.task_four
             ArrayRef_4_1 = ExecuteTask4_1(array4_1);
             ArrayRef_4_2 = ExecuteTask4_2(array4_2);
             ArrayRef_4_3 = GetStringFromArray(ExecuteTask4_3(array4_3));
-            //ArrayRef_4_3 = GetStringFromArray(array4_3) + $"\n\v\v\tстрок = {array4_3.GetLength(0)}\t колонок = {array4_3.GetLength(1)}";
             ArrayRef_4_4 = GetStringFromArray(ExecuteTask4_4(array4_4));
             //ArrayRef_4_4 = GetStringFromArray(array4_4) + $"\n\v\v\tстрок = {array4_4.GetLength(0)}\t колонок = {array4_4.GetLength(1)}";
         }
@@ -449,7 +448,7 @@ namespace PraktikaCourse3.frames.task_four
             }
         }
 
-        //мои добавки к UI (для удобства администрирования и понтов (работает через жопу)) </>
+        //мои добавки к UI (для удобства администрирования и понтов (работает через жопу)) </> UPD: НО РАБОТАЕТ))))
         private int _n;
         private int _m;
         private string _NqtyEl;

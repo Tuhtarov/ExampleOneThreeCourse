@@ -18,6 +18,22 @@ namespace PraktikaCourse3.frames.task_seven
             set { _homes = value; RaisePropertyChanged("HomesList"); }
         }
 
+        private string _ColorHomeWhereManyPeople;
+        public string ColorHomeWhereManyPeople
+        {
+            get { return _ColorHomeWhereManyPeople; }
+            set { _ColorHomeWhereManyPeople = value; RaisePropertyChanged("ColorHomeWhereManyPeople"); }
+        }
+
+        private string _ValueMediumQtyPeopleInHomes;
+        public string ValueMediumQtyPeopleInHomes
+        {
+            get { return _ValueMediumQtyPeopleInHomes; }
+            set { _ValueMediumQtyPeopleInHomes = value; RaisePropertyChanged("ValueMediumQtyPeopleInHomes"); }
+        }
+
+        
+
         protected void UpdateData()
         {
             Homes[] homes = new Homes[] {
@@ -28,6 +44,26 @@ namespace PraktikaCourse3.frames.task_seven
             };
             HomesList = (ICollection<Homes>)homes;
             CreateFile();
+            ExecuteTask7();
+        }
+        private void ExecuteTask7()
+        {
+            var list = HomesList;
+
+            var qtyField = list.Select(l => l.QtyPeople).Count();
+            var query = list.Select(l => l.QtyPeople).Max();
+            var responseQuery = list.Where(l => l.QtyPeople == query).Select(l => l.Color).FirstOrDefault().ToString();
+
+            var amountPeople = 0;
+
+            var mediumQtyInHomes = 0;
+
+            foreach (var item in list)
+            {
+                amountPeople += item.QtyPeople;
+            }
+            ColorHomeWhereManyPeople = responseQuery;
+            ValueMediumQtyPeopleInHomes = (amountPeople / qtyField).ToString();
         }
 
         protected void AddData(string id, string color, string qtyR, string qtyP)
@@ -37,6 +73,7 @@ namespace PraktikaCourse3.frames.task_seven
                 var newHome = new Homes { Number = int.Parse(id), Color = color, QtyRoom = int.Parse(qtyR), QtyPeople = int.Parse(qtyP) };
                 HomesList = HomesList.Append(newHome).ToList();
                 CreateFile();
+                ExecuteTask7();
             }
             catch (Exception e)
             {
@@ -57,6 +94,7 @@ namespace PraktikaCourse3.frames.task_seven
                 }
             }
         }
+
 
         //сервис
         public event PropertyChangedEventHandler PropertyChanged;

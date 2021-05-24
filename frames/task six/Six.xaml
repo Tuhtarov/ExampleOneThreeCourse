@@ -83,10 +83,6 @@
                 Text="{Binding RefFile_6_2, UpdateSourceTrigger=PropertyChanged}"/>
         </StackPanel>
 
-
-
-
-
         <!-- Задание 6.3 -->
         <StackPanel
             VerticalAlignment="Top"
@@ -123,10 +119,6 @@
                 Text="{Binding RefFile_6_3, UpdateSourceTrigger=PropertyChanged}"/>
         </StackPanel>
 
-
-        
-        
-        
         <!-- Задание 6.4 -->
         <StackPanel
             VerticalAlignment="Top"
@@ -165,9 +157,6 @@
                 Text="{Binding SummOutput_6_4, UpdateSourceTrigger=PropertyChanged}"/>
         </StackPanel>
 
-        
-        
-        
         <!-- Задание 6.1 -->
         <StackPanel
             VerticalAlignment="Top"
@@ -223,15 +212,6 @@
                 Text="{Binding RefFile_6_1, UpdateSourceTrigger=PropertyChanged}"/>
         </StackPanel>
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
         <!-- Задание 6.5 -->
         <StackPanel
             VerticalAlignment="Top"
@@ -277,11 +257,6 @@
                 Text="{Binding RefFile_6_5, UpdateSourceTrigger=PropertyChanged}"/>
         </StackPanel>
 
-
-        
-        
-        
-        
         <!-- Сервис -->
         <StackPanel 
             Orientation="Horizontal"

@@ -71,10 +71,6 @@
                 Text="* Цвет, количество жильцов, количество квартир. "/>
         </StackPanel>
 
-        
-        
-        
-        
         <StackPanel
             Orientation="Vertical"
             Grid.Row="1"
@@ -214,6 +210,23 @@
             </Button>
             
         </Grid>
+
+        <StackPanel
+            Margin="80,0,0,0"
+            Grid.Row="2"
+            Orientation="Horizontal"
+            Grid.ColumnSpan="2">
+            <TextBlock 
+                Text="РЕЗУЛЬТАТ ВЫПОЛНЕНИЯ ЗАДАНИЯ => "/>
+            <TextBlock 
+                Text="Цвет дома, в котором больше всего жильцов: "/>
+            <TextBlock 
+                Text="{Binding ColorHomeWhereManyPeople, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBlock 
+                Text="Среднее количество жильцов в домах: "/>
+            <TextBlock 
+                Text="{Binding ValueMediumQtyPeopleInHomes, UpdateSourceTrigger=PropertyChanged}"/>
+        </StackPanel>
 
     </Grid>
 </Page>

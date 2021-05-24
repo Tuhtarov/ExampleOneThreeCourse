@@ -133,8 +133,7 @@ namespace PraktikaCourse3.frames.task_two
             }
         }
 
-        //---------------------
-
+        //----------Бизнес логика-----------
         private void CountQtyDigit(string sequence)
         {
             char oneDigit = '0';
@@ -158,10 +157,6 @@ namespace PraktikaCourse3.frames.task_two
 
         }
 
-        public TwoViewModel()
-        {
-        }
-
         private bool CheckStringOnLetters(string sequence)
         {
             if(sequence.Length != 0)
@@ -182,6 +177,5 @@ namespace PraktikaCourse3.frames.task_two
                 return false;
             }
         }
-
     }
 }
